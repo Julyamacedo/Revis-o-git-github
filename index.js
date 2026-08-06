@@ -16,3 +16,7 @@ const maiúsculas = produtos.map(item => item.toUpperCase());
 console.log('=========================');
 console.log(maiúsculas);
 
+console.log('Transforme todos os percorrer todos os elementos do array utilizando uma estrutura de repetição do array');
+for (let i = 0; i< produtos.length; i++) {
+    console.log(produtos[i]);
+}
