@@ -2,7 +2,11 @@
 //nome:katherine de Paula
 //nome:Isabela Rossi
 //PRODUTO
-let produto = ['shampoo', 'condicionador', 'mascara', 'finalização'];
-console.log("Lista de produtos inicial");
-console.log("=========================");
-console.table(produto);
+let produtos = ['shampoo', 'condicionador', 'mascara', 'finalização'];
+console.log('Lista de produtos inicial');
+console.log('=========================');
+console.table(produtos);
+
+console.log('Exibe quantidade de produtos');
+console.log('=========================');
+console.log(`A quantidade de produtos é de ${produtos.length}`);
