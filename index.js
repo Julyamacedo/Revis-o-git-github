@@ -20,3 +20,11 @@ console.log('Transforme todos os percorrer todos os elementos do array utilizand
 for (let i = 0; i< produtos.length; i++) {
     console.log(produtos[i]);
 }
+
+console.log('Criando uma estrutura condicional');
+if (produtos.length > 5) {
+    console.log('O array possui quantidade suficiente de registros');
+} else {
+console.log('O array possui quantidade insuficiente de registros');
+
+}
