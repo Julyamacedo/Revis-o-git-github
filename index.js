@@ -23,4 +23,7 @@ console.log('===========================');
 console.log(produtos.find((produto) => produto === 'condicionador'));
 console.log('----------------------------')
 
- // .
+console.log('* LISTA ORGANIZADA EM ORDEM ALFABETICA');
+console.log('===========================');
+produtos.sort();
+console.table(produtos);
