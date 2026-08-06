@@ -10,3 +10,9 @@ console.table(produtos);
 console.log('Exibe quantidade de produtos');
 console.log('=========================');
 console.log(`A quantidade de produtos é de ${produtos.length}`);
+
+console.log('Transforme todos os elementos do array');
+const maiúsculas = produtos.map(item => item.toUpperCase());
+console.log('=========================');
+console.log(maiúsculas);
+
